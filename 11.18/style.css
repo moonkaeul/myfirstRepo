@@ -1,0 +1,27 @@
+pre{color: white;
+    background-color: black; }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+important-test{
+    color: aqua;
+}
+# red{
+    columns: red
+;
+}
+h1,
+h2,
+h3,
+h4{
+    color: aqua;
+    background-color: black;
+}
+section p{
+    border: solid 1 white;
+}
+section > p{
+    background-color: black;
+}

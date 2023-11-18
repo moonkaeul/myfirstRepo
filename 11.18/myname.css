@@ -1,0 +1,22 @@
+
+
+#box{
+    background-color: bisque;
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+    border: 10px solid  skyblue;
+    text-align: center;
+    color: #fff;
+   
+}
+
+#desc{
+    font: 20px;
+    padding-bottom: 10px;
+
+}
+
+#name{
+    font-size: 40px;
+}
