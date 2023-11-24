@@ -4,41 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <p>웹의 대표적인 기술</p>
-    <!--  -->
-    <h1></h1>
-    <h1>hello world</h1>
-    <h2>hello world</h2>
-    <h3>hello world</h3>
-    <h4>hello world</h4>
-    <h5>hello world</h5>
-    <h6>hello world</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br>
-        <br>
-        <br>
-        Quisquam inventore assumenda laboriosam delectus non harum, quod nulla! Eos consequuntur possimus, iste corporis quasi rem quisquam nemo debitis consectetur porro! Quo.
-    </p>
-    <a href="https://www.naver.com/">네이버로 이동 </a> <br>
-    <a href="https://www.naver.com/"target = _blank>네이버로 이동 </a><br>
-    <a href="./atest.html">atest파일로 이동</a><br>
-    <a href="./atest.html"target = _blank>atest파일로 이동</a>
-    <a href="tel:010-0000-0000">010-1234-1234</a>
-    <br>
-    <br>
-    <a href="mailto:google@gmail.com">google@gmail.com</a>
-    <a href="#move">무브로 이동합니다</a>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p id="move">무브입니다</p>
+    <header>
+        <h1><a href="#"><img src="./images/weniv-logo.png" alt="위니브"></a></h1>
 
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#activatly">activatly</a></li>
+                <li><a href="#contact">contact</a></li>
 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2 class="tit-descript">
+                안녕하세요. <br />
+                 <strong>프론트엔드 개발자 <br /></strong>라이캣입니다.
+            </h2>
+            <img class="profile-img" src="./images/Lycat.png" alt="인사하는 라이캣">
+            <a class="scroll-link" href="#about"><img src="./images/down.svg" alt="아래로 스크롤 이동 버튼"></a>
+        </section>
 
+        <section id="about">
+            <h2 class="tit">about</h2>
+            <p class="descript">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, dicta? Harum placeat ea dolor animi nesciunt illo quasi possimus alias a laboriosam, beatae eos error, inventore earum exercitationem adipisci repellat.(나중에 내 자기소개로 바꾸자)
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veritatis, repudiandae error nemo iure sint ad quidem libero, explicabo quis earum doloremque hic maiores deleniti repellendus aut sunt omnis animi.
+            </p>
+           
+            <p class="additional-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repellat. Debitis, atque? Iste laudantium dolorum eos deserunt quaerat, debitis voluptatum tempora aliquid amet possimus dolores magni fugiat eveniet architecto in.
+            </p>
+        </section>
 
+        <section id="activatly">
+            <h2 class="tit">activatly</h2>
+            <ul class="active-list">
+                <li><strong class="active-tit">we드림</strong>
+                <p class="active-descript">we드림 웹사이트 구현</p></li>
 
+                <li><strong class="active-tit">위케이션 프로그램</strong>
+                    <p class="active-descript">청년 위케이션 지원 프로그램 홍보 및 </p></li>
 
-    
+                <li><strong class="active-tit">제목크게</strong>
+                    <p class="active-descript">내용은 몰라</p></li>
+
+            </ul>
+            <ul class="active-img-list">
+                <li><img class="sup" src="./images/wedream.png" alt="서포터즈">
+                </li>
+                <li><img class="work" src="./images/workaction.png" alt="워케이션"></li>
+                <li><img class="schor" src="./images/scholarship.png" alt="라이캣 장학금"></li>
+
+            </ul>
+        </section>
+
+        <section id="contact">
+            <div class="contact-cont">
+                <h2 class="tit">contact</h2>
+                <p class="descript">주의사항</p>
+                <div class="contact-box">
+                    <div class="mail-box">
+                    <img src="./images/mail.svg" alt="메일 보내기">
+                    <a href="mailto:enfansdpdnjs@naver.com">enfansdpdnjs@naver.com</a>
+                    </div>
+                    <div class="movile-box">
+                        <img src="./images/mobile.svg" alt="전화걸기">
+                        <a href="tel:01027160930">010-2716-0930</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <small><strong>저작권 관련 내용을 넣어주면 된다.</strong></small>
+    </footer>
 </body>
 </html>
